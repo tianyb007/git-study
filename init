@@ -1,0 +1,22 @@
+初始配置
+安装Git
+去官网下载安装。
+初始化配置
+需要配置用户名和邮箱地址
+git config --global user.name "Your Name"
+git config --global user.email "aaa@123.com"
+
+global是全局配置，还有local和system配置。
+用户名和邮箱地址需要自己设置。
+
+
+创建版本库
+找到合适的路径，创建一个版本库。把这个目录下的内容交给git管理。
+mkdir learngit    新建文件夹
+cd learngit        目录切换到learngit
+pwd                显示当前目录。
+
+git init            初始化仓库
+
+
+编写文件放到目录下，就可以管理了。
